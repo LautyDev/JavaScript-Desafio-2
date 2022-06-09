@@ -1,9 +1,7 @@
-class Product {
-    constructor(name, stock, price) {
-        this.name = name
-        this.stock = stock
-        this.price = price * 1.21
-    }
+function Product(name, stock, price) {
+    this.name = name
+    this.stock = stock
+    this.price = price * 1.21
 }
 
 const product = new Product('Tesla Model PI', 100, 1000)
